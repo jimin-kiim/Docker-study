@@ -1,0 +1,6 @@
+services:
+  app-image:
+    image: kjmiim/node-sample:latest
+    ports: 
+      - "3000:3000"
+    container_name: node-test-app

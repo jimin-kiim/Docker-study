@@ -1,3 +1,4 @@
+### Dockerfile, image, registry
 #### dockerfile 빌드 및 이미지 생성 
 - docker build -t node-sample:latest .
 
@@ -25,3 +26,16 @@
 - docker push [계정명]/[이미지 이름]:[태그]
 - ```docker push kjmiim/node-sample:latest```
 
+### Docker Compose
+#### docker compose로 container 실행
+- docker compose up -d
+
+#### docker compose 목록 확인
+- docker compose ps
+
+#### docker compose service log 확인
+- docker compose logs <service명>
+- ```docker compose logs app-image```
+
+#### docker compose container 중지
+- docker compose down
