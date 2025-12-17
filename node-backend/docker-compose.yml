@@ -1,0 +1,6 @@
+services:
+  app-image:
+    image: kjmiim/node-backend-amd:latest
+    ports: 
+      - "8080:8080"
+    container_name: node-test-app
